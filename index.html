@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .border {
+            display: inline-block;
+            background: honeydew;
+            width: 49%;
+            text-align: center;
+        }
+
+        .solid {
+            border: 2px solid black;
+        }
+
+        .dotted {
+            border: 2px dotted black;
+        }
+
+        .dashed {
+            border: 2px dashed black;
+        }
+
+        .double {
+            border: 2px double black;
+        }
+
+        .groove {
+            border: 5px groove rgb(204, 83, 83);
+        }
+
+        .ridge {
+            border: 5px ridge rgb(64, 170, 129);
+        }
+
+        .inset {
+            border: 5px inset rgb(214, 132, 132);
+        }
+
+        .outset {
+            border: 5px outset rgb(139, 82, 82);
+        }
+
+        .none {
+            border: none;
+        }
+
+        .hidden {
+            border: hidden;
+        }
+
+        .mix {
+            border-style: dotted dashed solid double;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align: center; background-color: rgb(1, 173, 145); color: #fff;">Class-05 <br> Home Work (CSS)</h2>
+    <div class="color" style="background-color: rgb(94, 218, 218); text-align: center;">
+        <h2 style="color:#fff;">CSS Color (Inline CSS & Display Inline-Block & background-color)</h2>
+        <p>In CSS, a color can be specified by using a predefined color name:</p>
+        <div
+            style="display: inline-block; height: 100px; width: 150px; background-color: tomato; color: white; text-align: center; border: 2px solid black; border-radius: 10px;">
+            Tomato</div>
+        <div
+            style="display: inline-block; height: 100px; width: 150px; background-color: orange; color: white; text-align: center; border: 2px solid black; border-radius: 30px;">
+            orange</div>
+        <div
+            style="display: inline-block; height: 100px; width: 100px; background-color: dodgerblue; color: white; text-align: center;border: 2px solid black; border-radius: 50%;">
+            DodgerBlue</div>
+        <div
+            style="display: inline-block; height: 100px; width: 150px; background-color: mediumseagreen; color: white; text-align: center; border: 2px solid rgb(179, 146, 146); box-shadow: 0px 0px 10px rgb(0, 0, 0);">
+            MediumSeaGreen</div>
+        <div
+            style="display: inline-block; height: 100px; width: 150px; background-color: gray; color: white; text-align: center;">
+            Gray</div>
+        <div
+            style="display: inline-block; height: 100px; width: 150px; background-color: slateblue; color: white; text-align: center;">
+            SlateBlue</div>
+        <div
+            style="display: inline-block; height: 100px; width: 150px; background-color: violet; color: white; text-align: center;">
+            Violet</div>
+        <div
+            style=" display: inline-block; height: 100px; width: 150px; background-color: lightgray; color: white; text-align: center;">
+            LightGray</div>
+    </div>
+    <br>
+    <br>
+    <div class="border">
+        <h2>CSS Borders (Internal CSS)</h2>
+        <p>The CSS border properties allow you to specify the style, width, and color of an element's border.</p>
+        <p class="solid">A solid border.</p>
+        <p class="dotted">A dotted border.</p>
+        <p class="dashed">A dashed border.</p>
+        <p class="double">A double border..</p>
+        <p class="groove">A groove border. The effect depends on the border-color value.</p>
+        <p class="ridge">A ridge border. The effect depends on the border-color value.</p>
+        <p class="inset">An inset border. The effect depends on the border-color value.</p>
+        <p class="outset">An outset border. The effect depends on the border-color value.</p>
+        <p class="none">No border.</p>
+        <p class="hidden">A hidden border.</p>
+        <p class="mix">A mixed border.</p>
+    </div>
+
+    <div class="outlineMain">
+        <h2>CSS Outline (External Css)</h2>
+        <p>An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out".</p>
+        <p class="solid outline">A solid border.</p>
+        <p class="dotted outline">A dotted border.</p>
+        <p class="dashed outline">A dashed border.</p>
+        <p class="double outline">A double border..</p>
+        <p class="groove outline">A groove border. The effect depends on the border-color value.</p>
+        <p class="ridge outline">A ridge border. The effect depends on the border-color value.</p>
+        <p class="inset outline">An inset border. The effect depends on the border-color value.</p>
+        <p class="outset outline">An outset border. The effect depends on the border-color value.</p>
+        <p class="none outline">No border.</p>
+        <p class="hidden outline">A hidden border.</p>
+        <p class="mix outline">A mixed border.</p>
+    </div>
+    <br> <br>
+    <div class="text">
+        <h2>CSS Text</h2>
+        <p>CSS has a lot of properties for formatting text.</p>
+
+        <div class="textFormat">
+            <h2>TEXT FORMATTING</h2>
+        </div>
+        <p class="textArea">
+            This text is styled with some of the text formatting properties. The heading uses the text-align,
+            text-transform, and color properties. The paragraph is indented, aligned, and the space between characters
+            is specified. The underline is removed from this colored "Try it Yourself" link.</p>
+        <h2>Text Shadow</h2>
+
+        <div class="shadow">
+            <h4>shadow effect</h4>
+        </div>
+    </div>
+
+    <div class="font" style="display: inline-block;">
+        <h2>CSS Fonts</h2>
+        <h2>Some Font Example</h2>
+        <h4 style="display: inline-block; font-family: 'Times New Roman', Times, serif;">Times New Roman</h4>
+        <h4 style="display: inline-block; font-family: sans-serif;">Arial Font</h4>
+        <h4 style="display: inline-block; font-family: monospace;">Courier New</h4>
+        <h4 style="display: inline-block; font-family: cursive;">Brush Script MT</h4>
+        <h4 style="display: inline-block; font-family: fantasy;">Copperplate</h4>
+        <h4 style="display: inline-block; font-family: sofia;">Sofia Font</h4>
+    </div>
+    <div style="border: 2px solid; text-align: center; background-color: #15202B; color: #fff;">
+        <h1>CSS Great Font Pairings</h1>
+        <h1 style="font-family:Georgia, serif;">Beautiful Norway</h1>
+        <p style="text-align: justify;">Norway has a total area of 385,252 square kilometers and a population of
+            5,438,657 (December 2020). Norway is bordered by Sweden, Finland and Russia to the north-east, and the
+            Skagerrak to the south, stunning fjords. Oslo, the capital, is a city of green spaces and museums.ergen,
+            with colorful wooden houses, is the starting point for cruises to the dramatic Sognefjord. Norway is also
+            known for fishing,hiking and skiing.</p>
+
+    </div>
+
+    <div class="link-area" style="border: 2px solid black; text-align: center;">
+        <h3>Styling Links</h3>
+        <p>Mouse over the links and watch them change layout:</p>
+        <p><b><a class="one" href="#">This link change Color</a></b></p>
+        <p><b><a class="two" href="#">This link change Font size</a></b></p>
+        <p><b><a class="three" href="#">This link change Background color</a></b></p>
+        <p><b><a class="four" href="#">This link change Font-Family</a></b></p>
+        <p><b><a class="five" href="#">This link change text decoration</a></b></p>
+    </div>
+
+    <div style="text-align: center;">
+
+        <h3>The list-style-type Property</h3>
+        <div class="list-area" style="display: inline-block;">
+            
+            <h4>Unordered Lists:</h4>
+            <ul class="unOrderOne">
+                <li>Coffe</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+            </ul>
+
+            <ul class="unOrderTwo">
+                <li>Coffe</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+            </ul>
+
+
+        </div>
+
+        <div style="display: inline-block;">
+            <h4>Ordered Lists:</h4>
+            <ol class="orderOne">
+                <li>Coffe</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+            </ol>
+            <ol class="orderTwo">
+                <li>Coffe</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+            </ol>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.outlineMain {
+    display: inline-block;
+    width: 50%;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.outline {
+    outline: 2px solid #ff0000;
+}
+
+.text {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.textFormat {
+    color: #4CAF50;
+    text-align: center;
+}
+
+.textArea {
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.shadow {
+    text-shadow: 1px 1px rgb(255, 1, 1);
+    text-transform: uppercase;
+}
+
+/*link section*/
+
+a.one:link {
+    color: rgb(255, 2, 2);
+}
+
+a.one:visited {
+    color: rgb(43, 219, 37);
+}
+
+a.one:hover {
+    color: rgb(17, 136, 96);
+}
+
+a.two:link {
+    color: rgb(255, 2, 2);
+}
+
+a.two:visited {
+    color: rgb(43, 219, 37);
+}
+
+a.two:hover {
+    font-size: 150%;
+}
+
+a.three:link {
+    color: rgb(255, 2, 2);
+}
+
+a.three:visited {
+    color: rgb(43, 219, 37);
+}
+
+a.three:hover {
+    background-color: rgb(236, 189, 131);
+}
+
+a.four:link {
+    color: rgb(255, 2, 2);
+}
+
+a.four:visited {
+    color: rgb(43, 219, 37);
+}
+
+a.four:hover {
+    font-family:sans-serif;
+}
+
+a.five:link {
+    color: rgb(255, 2, 2);
+}
+
+a.five:visited {
+    color: rgb(43, 219, 37);
+}
+
+a.five:hover {
+    text-decoration: none;
+    cursor: wait;
+}
+
+.unOrderOne{
+    list-style-type: circle;
+}
+.unOrderTwo{
+    list-style-type: square;
+}
+
+.orderOne{
+list-style-type: upper-roman;
+}
+.orderTwo{
+    list-style-type: lower-alpha;
+}
+
